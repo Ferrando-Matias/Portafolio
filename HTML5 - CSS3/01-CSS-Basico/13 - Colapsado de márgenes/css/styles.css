@@ -1,0 +1,47 @@
+/*
+LOS MARGENES VERTICALES COLAPSAN
+por eso se recomienda siempre dar margin bottom para empujar los elementos hacia abajo y que no colapsen
+*/
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #333;
+    color: #fff;
+    margin: 0;
+}
+
+.header {
+    background-color: lightcoral;
+    height: 100px;
+    margin-bottom: 20px;
+    /*FORMAS DE SOLUCIONAR COLAPSADO DE MARGENES ENTRE PADRES E HIJOS*/
+    overflow: hidden;
+    padding-top: 0.1px;
+    border-top: 0.1px solid lightcoral;
+}
+
+.title {
+    margin: 0;
+    margin-top: 30px;
+}
+
+
+/* .box2 {
+    margin: 30px;
+} */
+
+.box-1,
+.box-2 {
+    margin-left: auto;
+    margin-right: auto;
+    background-color: lightcyan;
+    width: 300px;
+    height: 300px;
+}
+
+.box-1 {
+    margin-bottom: 30px;
+}

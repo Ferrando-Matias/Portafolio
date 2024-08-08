@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "G:\\Mi unidad\\01 - Colegios\\_Terciario\\0.0 - Algoritmos y Estructuras de Datos II\\01 - Unidades Tematicas\\U0 - Intro C#\\3- Actividades Pr\u00E1cticas\\2- Ejercicios Unidad 0\\Ejercicio25\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D0987BC2-5FDB-4F7D-A911-435A191114D8}|Ejercicio25\\Ejercicio25.csproj|g:\\mi unidad\\01 - colegios\\_terciario\\0.0 - algoritmos y estructuras de datos ii\\01 - unidades tematicas\\u0 - intro c#\\3- actividades pr\u00E1cticas\\2- ejercicios unidad 0\\ejercicio25\\ejercicio25\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D0987BC2-5FDB-4F7D-A911-435A191114D8}|Ejercicio25\\Ejercicio25.csproj|solutionrelative:ejercicio25\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "G:\\Mi unidad\\01 - Colegios\\_Terciario\\0.0 - Algoritmos y Estructuras de Datos II\\01 - Unidades Tematicas\\U0 - Intro C#\\3- Actividades Pr\u00E1cticas\\2- Ejercicios Unidad 0\\Ejercicio25\\Ejercicio25\\Program.cs",
+              "RelativeDocumentMoniker": "Ejercicio25\\Program.cs",
+              "ToolTip": "G:\\Mi unidad\\01 - Colegios\\_Terciario\\0.0 - Algoritmos y Estructuras de Datos II\\01 - Unidades Tematicas\\U0 - Intro C#\\3- Actividades Pr\u00E1cticas\\2- Ejercicios Unidad 0\\Ejercicio25\\Ejercicio25\\Program.cs",
+              "RelativeToolTip": "Ejercicio25\\Program.cs",
+              "ViewState": "AQIAABMAAAAAAAAAAAAwwCcAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-06T14:36:41.543Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

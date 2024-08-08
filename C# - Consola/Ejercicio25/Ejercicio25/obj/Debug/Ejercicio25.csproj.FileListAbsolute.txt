@@ -1,0 +1,14 @@
+C:\Users\matia\Desktop\Ejercicio25\Ejercicio25\bin\Debug\Ejercicio25.exe.config
+C:\Users\matia\Desktop\Ejercicio25\Ejercicio25\bin\Debug\Ejercicio25.exe
+C:\Users\matia\Desktop\Ejercicio25\Ejercicio25\bin\Debug\Ejercicio25.pdb
+C:\Users\matia\Desktop\Ejercicio25\Ejercicio25\obj\Debug\Ejercicio25.csproj.AssemblyReference.cache
+C:\Users\matia\Desktop\Ejercicio25\Ejercicio25\obj\Debug\Ejercicio25.csproj.CoreCompileInputs.cache
+C:\Users\matia\Desktop\Ejercicio25\Ejercicio25\obj\Debug\Ejercicio25.exe
+C:\Users\matia\Desktop\Ejercicio25\Ejercicio25\obj\Debug\Ejercicio25.pdb
+G:\Mi unidad\01 - Colegios\_Terciario\0.0 - Algoritmos y Estructuras de Datos II\01 - Unidades Tematicas\U0 - Intro C#\3- Actividades Prácticas\2- Ejercicios Unidad 0\Ejercicio25\Ejercicio25\bin\Debug\Ejercicio25.exe.config
+G:\Mi unidad\01 - Colegios\_Terciario\0.0 - Algoritmos y Estructuras de Datos II\01 - Unidades Tematicas\U0 - Intro C#\3- Actividades Prácticas\2- Ejercicios Unidad 0\Ejercicio25\Ejercicio25\bin\Debug\Ejercicio25.exe
+G:\Mi unidad\01 - Colegios\_Terciario\0.0 - Algoritmos y Estructuras de Datos II\01 - Unidades Tematicas\U0 - Intro C#\3- Actividades Prácticas\2- Ejercicios Unidad 0\Ejercicio25\Ejercicio25\bin\Debug\Ejercicio25.pdb
+G:\Mi unidad\01 - Colegios\_Terciario\0.0 - Algoritmos y Estructuras de Datos II\01 - Unidades Tematicas\U0 - Intro C#\3- Actividades Prácticas\2- Ejercicios Unidad 0\Ejercicio25\Ejercicio25\obj\Debug\Ejercicio25.csproj.AssemblyReference.cache
+G:\Mi unidad\01 - Colegios\_Terciario\0.0 - Algoritmos y Estructuras de Datos II\01 - Unidades Tematicas\U0 - Intro C#\3- Actividades Prácticas\2- Ejercicios Unidad 0\Ejercicio25\Ejercicio25\obj\Debug\Ejercicio25.csproj.CoreCompileInputs.cache
+G:\Mi unidad\01 - Colegios\_Terciario\0.0 - Algoritmos y Estructuras de Datos II\01 - Unidades Tematicas\U0 - Intro C#\3- Actividades Prácticas\2- Ejercicios Unidad 0\Ejercicio25\Ejercicio25\obj\Debug\Ejercicio25.exe
+G:\Mi unidad\01 - Colegios\_Terciario\0.0 - Algoritmos y Estructuras de Datos II\01 - Unidades Tematicas\U0 - Intro C#\3- Actividades Prácticas\2- Ejercicios Unidad 0\Ejercicio25\Ejercicio25\obj\Debug\Ejercicio25.pdb

@@ -1,0 +1,82 @@
+/*
+    GRID sirve para ordenar el contenido como si fuera una tabla, con la diferencia que en esta ultima el tamaño de celdas, filas y columnas lo determina el contenido, mientras que con grid es completamente flexible.
+    
+    Align-self: Sirve para mover el item dentro de la celda verticalmente
+    Justify-self: Sirve para mover el item dentro de la celda horizontalmente
+
+    Place-self: Align-self Justify-self;
+*/
+
+*{
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(28, 51, 69);
+    color: rgb(122, 226, 240);
+    font-family: 'Courier New', Courier, monospace
+}
+
+.conteiner {
+    padding: 20px;
+    background-color: rgb(42, 54, 90);
+    color: rgb(28, 51, 69);
+    width: 80vw;
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-template-rows: repeat(3, 100px);
+    place-content: center center;
+    align-items: center;
+    justify-items: center;
+    gap: 10px;
+    font-weight: 900;
+    border-radius: 20px;
+}
+
+p{
+    text-align: center;
+    width: 70vw;
+}
+
+.box {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 3rem;
+}
+
+.box-1 {
+    background-color: rosybrown;
+    align-self: flex-start;
+    justify-self: start;
+}
+
+.box-2 {
+    background-color: royalblue;
+}
+
+.box-3 {
+    background-color: lightsalmon;
+    place-self: start end;
+}
+
+.box-4 {
+    background-color: rgb(214, 191, 191);
+}
+
+.box-5 {
+    background-color: rgb(61, 189, 189);
+    justify-self: end;
+}
+
+.box-6 {
+    background-color: rgb(211, 29, 29);
+    justify-self: start;
+}

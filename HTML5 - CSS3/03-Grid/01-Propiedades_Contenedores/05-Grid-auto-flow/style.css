@@ -1,0 +1,76 @@
+/*
+    GRID sirve para ordenar el contenido como si fuera una tabla, con la diferencia que en esta ultima el tamaño de celdas, filas y columnas lo determina el contenido, mientras que con grid es completamente flexible.
+
+    grid-auto-flow:column/row;  lo que hace es decirle que las ordene llenando las columnas, y cuando no haya mas lugar pase a la siguiente, o lo mismo con las filas (valor por defecto), si despues del row ponemos dense, lo que haremos es ocupar los lugares vacios
+
+*/
+
+*{
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(28, 51, 69);
+    color: rgb(122, 226, 240);
+    font-family: 'Courier New', Courier, monospace
+}
+
+.conteiner {
+    padding: 20px;
+    background-color: rgb(42, 54, 90);
+    color: rgb(28, 51, 69);
+    width: 80vw;
+    display: grid;
+    grid-template-columns: repeat(3, 150px);
+    grid-template-rows: 100px 200px;
+    grid-auto-columns: 150px;
+    grid-auto-rows: 100px;
+    place-content: center center;
+    /* grid-auto-flow: dense; */    
+    gap: 10px;
+    font-weight: 900;
+    border-radius: 20px;
+}
+
+p{
+    text-align: center;
+    width: 70vw;
+}
+
+.box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 3rem;
+}
+
+.box-1 {
+    background-color: rosybrown;
+    grid-row: 1/3;
+}
+
+.box-2 {
+    background-color: royalblue;
+}
+
+.box-3 {
+    background-color: lightsalmon;
+    grid-column: 4/5;
+}
+
+.box-4 {
+    background-color: rgb(214, 191, 191);
+}
+
+.box-5 {
+    background-color: rgb(61, 189, 189);
+}
+
+.box-6 {
+    background-color: rgb(211, 29, 29);
+}

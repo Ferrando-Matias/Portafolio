@@ -1,0 +1,34 @@
+Ejercicio 1: Impresiones en pantalla y comentarios
+Ejercicio 2: Envio de info por metodo POST
+Ejercicio 3: Envio de info por metodo GET
+Ejercicio 5: Concatenacion de cadenas
+Ejercicio 6: Tipo de datos y variables
+Ejercicio 7: Constantes
+Ejercicio 8: Operadores aritmeticos basicos
+Ejercicio 9: Operadores relacionales
+Ejercicio 10: Operadores logicos
+Ejercicio 11: If Anidado
+Ejercicio 13: Switch y manejo de botones
+Ejercicio 14: Ciclo For
+Ejercicio 15: Ciclo Do While
+Ejercicio 16: Ciclo While
+Ejercicio 17: Funciones propias
+Ejercicio 18: Funciones Basicas
+Ejercicio 21: Arrays
+Ejercicio 24: Clases y objetos
+Ejercicio 25: Herencia
+Ejercicio 26: Constructores
+Ejercicio 27: Metodos estaticos
+Ejercicio 28: Conexion a bases de datos e insercion de datos
+Ejercicio 29: Lectura de datos 
+Ejercicio 30: Sesiones
+Ejercicio 31: Valores de inputs text, radio, checkbox, select, textarea
+Ejercicio 32: Valores input file
+Ejercicio 33: Funcion para JSON decode
+Ejercicio 34: Funcion para JSON encode
+Ejercicio 35: Consumir una API
+Ejercicio 36: Inlude y require / once
+Ejercicio 38: Abrir un archivo txt
+Ejercicio 39: Escribir un archivo txt
+
+Instalar extension bootstrap 5 quick snippets

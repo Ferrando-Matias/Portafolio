@@ -1,0 +1,122 @@
+/*
+Cuando usamos display:flex; por defecto nos va a poner los elementos hijos de manera horizontal, si nosotros queremos volver a ponerlos verticales, tendremos que invertir el main axis con el cross axis, y usaremos la regla flex-direction:column;
+
+align-content: funciona como el align-items, se usa cuando el contenido se rompe
+        flex-start
+        flex-end
+        center
+        space-between
+        space-around
+        space-evenly
+*/
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(28, 51, 69);
+    color: rgb(122, 226, 240);
+    font-family: 'Courier New', Courier, monospace
+
+}
+
+.conteiner {
+    margin-top: 10px;
+    background-color: rgb(42, 54, 90);
+    color: rgb(28, 51, 69);
+    height: 80vh;
+    display: flex;
+    flex-wrap: wrap;
+    animation: anime 5s 1s infinite alternate;
+    font-weight: 900;
+    border-radius: 20px;
+    justify-content: center;
+    overflow: auto;
+    text-align: center;
+}
+
+h3{
+    color: antiquewhite;
+    margin-top: 15px;
+}
+
+.start{
+    align-content: flex-start;
+}
+
+.end{
+    align-content: flex-end;
+}
+
+.center{
+    align-content: center;
+}
+
+.between{
+    align-content: space-between;
+}
+
+.around{
+    align-content: space-around;
+}
+
+.stretch{
+    align-content: stretch;
+}
+
+.box {
+    width: 100px;
+    margin-bottom: 20px;
+    font-size: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    border-radius: 20px;
+}
+
+.box-1 {
+    background-color: rosybrown;
+}
+
+.box-2 {
+    background-color: royalblue;
+}
+
+.box-3 {
+    background-color: lightsalmon;
+}
+
+.box-4 {
+    background-color: cadetblue;
+}
+
+.box-5 {
+    background-color: cornsilk;
+}
+
+.box-6 {
+    background-color: slategray;
+}
+
+@keyframes anime {
+    0%{
+        width: 98vw;          
+    }
+    25%{
+        width: 75vw;         
+    }
+    50%{
+        width: 50vw;        
+    }
+    100%{
+        width: 25vw;           
+    }
+}

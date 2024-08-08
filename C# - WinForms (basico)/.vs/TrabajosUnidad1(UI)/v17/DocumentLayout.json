@@ -1,0 +1,70 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "G:\\Mi unidad\\01 - Colegios\\_Terciario\\0.0 - Algoritmos y Estructuras de Datos II\\01 - Unidades Tematicas\\U1 - GUI\\3- Actividades Pr\u00E1cticas\\2- TrabajosUnidad1(UI)\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3A9B02AC-E61F-4BE1-B82E-6A3C6867C1EA}|TrabajosUnidad1(UI)\\TrabajosUnidad1(UI).csproj|g:\\mi unidad\\01 - colegios\\_terciario\\0.0 - algoritmos y estructuras de datos ii\\01 - unidades tematicas\\u1 - gui\\3- actividades pr\u00E1cticas\\2- trabajosunidad1(ui)\\trabajosunidad1(ui)\\frmtp73.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3A9B02AC-E61F-4BE1-B82E-6A3C6867C1EA}|TrabajosUnidad1(UI)\\TrabajosUnidad1(UI).csproj|solutionrelative:trabajosunidad1(ui)\\frmtp73.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3A9B02AC-E61F-4BE1-B82E-6A3C6867C1EA}|TrabajosUnidad1(UI)\\TrabajosUnidad1(UI).csproj|g:\\mi unidad\\01 - colegios\\_terciario\\0.0 - algoritmos y estructuras de datos ii\\01 - unidades tematicas\\u1 - gui\\3- actividades pr\u00E1cticas\\2- trabajosunidad1(ui)\\trabajosunidad1(ui)\\frmtp68.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3A9B02AC-E61F-4BE1-B82E-6A3C6867C1EA}|TrabajosUnidad1(UI)\\TrabajosUnidad1(UI).csproj|solutionrelative:trabajosunidad1(ui)\\frmtp68.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3A9B02AC-E61F-4BE1-B82E-6A3C6867C1EA}|TrabajosUnidad1(UI)\\TrabajosUnidad1(UI).csproj|G:\\Mi unidad\\01 - Colegios\\_Terciario\\0.0 - Algoritmos y Estructuras de Datos II\\01 - Unidades Tematicas\\U1 - GUI\\3- Actividades Pr\u00E1cticas\\2- TrabajosUnidad1(UI)\\trabajosunidad1(ui)\\frmtp68.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{3A9B02AC-E61F-4BE1-B82E-6A3C6867C1EA}|TrabajosUnidad1(UI)\\TrabajosUnidad1(UI).csproj|solutionrelative:trabajosunidad1(ui)\\frmtp68.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FrmTP73.cs",
+              "DocumentMoniker": "G:\\Mi unidad\\01 - Colegios\\_Terciario\\0.0 - Algoritmos y Estructuras de Datos II\\01 - Unidades Tematicas\\U1 - GUI\\3- Actividades Pr\u00E1cticas\\2- TrabajosUnidad1(UI)\\TrabajosUnidad1(UI)\\FrmTP73.cs",
+              "RelativeDocumentMoniker": "TrabajosUnidad1(UI)\\FrmTP73.cs",
+              "ToolTip": "G:\\Mi unidad\\01 - Colegios\\_Terciario\\0.0 - Algoritmos y Estructuras de Datos II\\01 - Unidades Tematicas\\U1 - GUI\\3- Actividades Pr\u00E1cticas\\2- TrabajosUnidad1(UI)\\TrabajosUnidad1(UI)\\FrmTP73.cs",
+              "RelativeToolTip": "TrabajosUnidad1(UI)\\FrmTP73.cs",
+              "ViewState": "AQIAABUAAAAAAAAAAAAowCMAAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-24T23:21:33.405Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "FrmTP68.cs [Dise\u00F1o]",
+              "DocumentMoniker": "G:\\Mi unidad\\01 - Colegios\\_Terciario\\0.0 - Algoritmos y Estructuras de Datos II\\01 - Unidades Tematicas\\U1 - GUI\\3- Actividades Pr\u00E1cticas\\2- TrabajosUnidad1(UI)\\TrabajosUnidad1(UI)\\FrmTP68.cs",
+              "RelativeDocumentMoniker": "TrabajosUnidad1(UI)\\FrmTP68.cs",
+              "ToolTip": "G:\\Mi unidad\\01 - Colegios\\_Terciario\\0.0 - Algoritmos y Estructuras de Datos II\\01 - Unidades Tematicas\\U1 - GUI\\3- Actividades Pr\u00E1cticas\\2- TrabajosUnidad1(UI)\\TrabajosUnidad1(UI)\\FrmTP68.cs [Dise\u00F1o]",
+              "RelativeToolTip": "TrabajosUnidad1(UI)\\FrmTP68.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-17T22:24:52.033Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FrmTP68.cs",
+              "DocumentMoniker": "G:\\Mi unidad\\01 - Colegios\\_Terciario\\0.0 - Algoritmos y Estructuras de Datos II\\01 - Unidades Tematicas\\U1 - GUI\\3- Actividades Pr\u00E1cticas\\2- TrabajosUnidad1(UI)\\TrabajosUnidad1(UI)\\FrmTP68.cs",
+              "RelativeDocumentMoniker": "TrabajosUnidad1(UI)\\FrmTP68.cs",
+              "ToolTip": "G:\\Mi unidad\\01 - Colegios\\_Terciario\\0.0 - Algoritmos y Estructuras de Datos II\\01 - Unidades Tematicas\\U1 - GUI\\3- Actividades Pr\u00E1cticas\\2- TrabajosUnidad1(UI)\\TrabajosUnidad1(UI)\\FrmTP68.cs",
+              "RelativeToolTip": "TrabajosUnidad1(UI)\\FrmTP68.cs",
+              "ViewState": "AQIAABgAAAAAAAAAAAAowAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-17T22:24:39.131Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

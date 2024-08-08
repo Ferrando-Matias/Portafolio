@@ -1,0 +1,25 @@
+body {
+    margin: 0;
+}
+
+.gallery {
+    /*N° de columnas*/
+    column-count: 4;
+    /*Ancho de las columnas, cuando el ancho del body da para que entre una imagen mas la pone, sino la pone debajo*/
+    column-width: 200px;
+    /*separacion entre columnas*/
+    column-gap: 10px;
+    /*le damos un ancho maximo*/
+    max-width: 1500px;
+    /*Centramos la galeria*/
+    margin-left: auto;
+    margin-right: auto;
+    padding: 30px;
+}
+
+.gallery__img {
+    /*Ancho maximo de la img para que no desborde*/
+    max-width: 100%;
+    /*Separacion entre filas*/
+    margin-bottom: 10px;
+}

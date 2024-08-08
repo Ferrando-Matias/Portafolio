@@ -1,0 +1,79 @@
+body {
+    background-color: #222;
+}
+
+.flex-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: #444;
+    /* margin: 50px 50px; */
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px 1px #666;
+    padding: 20px;
+    max-width: 1200px;
+    max-height: 600px;
+}
+
+.form {
+    min-width: 400px;
+    flex-grow: 5;
+    text-align: center;
+    padding: 30px;
+    order: 2;
+}
+
+.form__input {
+    width: 90%;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-bottom: 3px solid rgb(72, 87, 173);
+    background-color: transparent;
+    color: whitesmoke;
+}
+
+.form-img {
+    flex-grow: 1;
+    display: flex;
+}
+
+.form textarea {
+    min-height: 150px;
+    resize: none;
+    /*Le saco la posibilidad de modificar el tamaño del textarea*/
+}
+
+.form-img img {
+    width: 350px;
+    margin: auto;
+}
+
+.form__input:focus {
+    border-radius: 5px;
+    background: linear-gradient(to bottom, transparent, #221);
+    border-bottom: 3px solid rgb(75, 180, 241);
+    outline: none;
+}
+
+.form input[type="submit"] {
+    background-color: rgb(46, 134, 206);
+    border-bottom: none;
+    border-radius: 0px;
+}
+
+.form input[type="submit"]:hover {
+    background-color: rgb(65, 123, 170);
+    border-bottom: none;
+}
+
+.form input[type="submit"]:focus {
+    background: rgb(65, 123, 170);
+    border-bottom: none;
+}
+
+.form input[type="submit"]:active {
+    background: linear-gradient(to bottom, rgb(29, 137, 187), rgb(89, 100, 155));
+    border-bottom: none;
+}

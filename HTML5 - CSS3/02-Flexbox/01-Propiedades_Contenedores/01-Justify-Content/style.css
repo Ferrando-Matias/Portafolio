@@ -1,0 +1,92 @@
+/*
+    Cuando usamos display:flex; por defecto nos va a poner los elementos hijos de manera horizontal, si nosotros queremos volver a ponerlos verticales, tendremos que invertir el main axis con el cross axis, y usaremos la regla flex-direction:column;
+    
+    justify-content: UBICA EL CONTENIDO EN EL MAIN AXIS
+        start
+        center
+        end
+        space-between: pone una caja en cada extremo y las del medio las separa con la misma distancia
+        space-around: como la anterior pero deja un pequeño margen en las cajas de los extremos
+        space-evenly: deja el mismo espacio entre todas las cajas y sus margenes
+*/
+
+body{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(28, 51, 69);
+    color: rgb(122, 226, 240);
+    font-family: 'Courier New', Courier, monospace
+
+}
+
+h1{
+    text-align: center;
+}
+.item{
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.strech, .between, .around, .evenly, .center, .end, .start{
+    display: flex;
+    width: 40vw;
+    background-color: #5D31E0;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+span + div{
+    margin-left: 10px;
+}
+
+span{
+    width: 150px;
+}
+
+.caja{
+    min-width: 20%;
+    background-color: #FCD081;
+    text-align: center;
+    border-radius: 5px;
+    color: initial;
+    font-weight: 900;
+}
+
+.strech{
+    justify-content: stretch;
+}
+
+.strech .caja, 
+.end .caja,
+.start .caja,
+.center .caja{
+    margin-right: 10px;
+}
+
+.between{
+    justify-content: space-between;
+}
+
+.around{
+    justify-content: space-around;
+}
+
+.evenly{
+    justify-content: space-evenly;
+}
+
+.center{
+    justify-content: center;
+}
+
+.end{
+    justify-content: flex-end;
+}
+
+.start{
+    justify-content: flex-start;
+}

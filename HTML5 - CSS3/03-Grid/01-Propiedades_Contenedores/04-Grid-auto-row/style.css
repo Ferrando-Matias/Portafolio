@@ -1,0 +1,86 @@
+/*
+    GRID sirve para ordenar el contenido como si fuera una tabla, con la diferencia que en esta ultima el tamaño de celdas, filas y columnas lo determina el contenido, mientras que con grid es completamente flexible.
+
+    grid-auto-row/column: auto(valor por defecto de los grid)/valor(300px); lo que hace es que al romperse y tener que agregarse otra fila o columna se ajuste su tamaño al contenido(auto) o a un valor que expresemos nosotros
+
+*/
+
+*{
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(28, 51, 69);
+    color: rgb(122, 226, 240);
+    font-family: 'Courier New', Courier, monospace
+}
+
+.conteiner {
+    padding: 20px;
+    background-color: rgb(42, 54, 90);
+    color: rgb(28, 51, 69);
+    width: 80vw;
+    display: grid;
+    /* grid-template-columns: repeat(2,150px); */
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-template-rows: 100px 200px;
+    grid-auto-rows: 300px;
+    grid-auto-columns: 300px;
+    place-content: center center;
+    row-gap: 10px;
+    column-gap: 10px;
+    animation: anime 5s 1s infinite alternate;
+    font-weight: 900;
+    border-radius: 20px;
+}
+
+.box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 3rem;
+}
+
+.box-1 {
+    background-color: rosybrown;
+}
+
+.box-2 {
+    background-color: royalblue;
+}
+
+.box-3 {
+    background-color: lightsalmon;
+}
+
+.box-4 {
+    background-color: rgb(214, 191, 191);
+}
+
+.box-5 {
+    background-color: rgb(61, 189, 189);
+}
+
+.box-6 {
+    background-color: rgb(211, 29, 29);
+}
+
+@keyframes anime {
+    0%{
+        width: 98vw;          
+    }
+    25%{
+        width: 75vw;         
+    }
+    50%{
+        width: 50vw;        
+    }
+    100%{
+        width: 25vw;           
+    }
+}

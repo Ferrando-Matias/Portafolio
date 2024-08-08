@@ -1,0 +1,70 @@
+
+/* Con estos stilos especificamos un máximo de ancho de 1000px. Es recomendable hacer uso del max-width dado que en monitores especialmente grandes no queremos que el ancho de la web sea el total del mismo.
+También especificamos un mínimo de altura con vh (Viewport Height). Esto hará que aunque no tengamos mucho contenido en nuestra sección de contenido nos aseguramos que el footer queda abajo del todo. Si lo quitásemos quedaría tal que así: */
+ body{
+    text-align: center;
+    color: gainsboro;
+    margin: 0 auto;
+    max-width: 1000px;
+    min-height: 100vh;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-areas:
+                        "my-header my-header my-header"
+                        "my-nav my-nav my-nav"
+                        "my-main my-main my-main"
+                        "my-aside my-aside my-aside"
+                        "my-aside2 my-aside2 my-aside2"
+                        "my-footer my-footer my-footer"
+}
+
+header {
+    grid-area: my-header;
+    background-color: blueviolet;
+  }
+   
+  nav {
+    grid-area: my-nav;
+    background-color: cornflowerblue;
+  }
+   
+  aside {
+    grid-area: my-aside;
+    background-color: darkmagenta;
+  }
+  aside + aside {
+    grid-area: my-aside2;
+    background-color: darkmagenta;
+  }
+  main {
+    grid-area: my-main;
+    background-color: indigo;
+  }
+   
+  footer {
+    grid-area: my-footer;
+    background-color: darkorchid;
+  }
+
+  @media (min-width: 600px) and (max-width: 1000px) {
+    body {
+      color: #42d624;
+      grid-template-columns: 200px 1fr 200px;
+      grid-template-areas:
+        "my-header my-header my-header"
+        "my-nav my-nav my-nav"
+        "my-aside my-main my-aside2"
+        "my-footer my-footer my-footer"
+    } 
+  }
+
+  @media (min-width: 1001px) {
+    body {
+      grid-template-columns: 200px 1fr 200px;
+      grid-template-areas:
+        "my-header my-header my-header"
+        "my-nav my-nav my-nav"
+        "my-aside my-main my-aside2"
+        "my-footer my-footer my-footer"
+    }
+  } 
